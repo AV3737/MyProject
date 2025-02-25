@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-image: url('https://cdn.pixabay.com/photo/2021/12/02/12/53/coffee-6840457_1280.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(135deg, #4b2e1e, #9c6b3f, #d4a276, #fff3e0);
+  background-size: cover;
+}
+nav {
+  height: 17%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  margin-left: 1.7rem;
+  justify-content: center;
+  align-items: center;
+}
+.left img {
+  width: 5rem;
+  height: auto;
+}
+.left h3 {
+  padding-left: 1rem;
+  cursor: pointer;
+  font-size: 2em;
+}
+.right {
+  width: 42%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.right a {
+  padding: 8px;
+  margin: 0;
+  font-size: 1.5rem;
+  background-color: rgb(130, 17, 17);
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mleft {
+  height: 56%;
+  width: 40%;
+  margin: 2rem;
+}
+.mleft h2 {
+  padding: 1rem;
+  font-size: 3.5rem;
+}
+.mleft p {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.mleft button {
+  height: 65px;
+  width: 120px;
+  border-radius: 5px;
+  margin-left: 40%;
+  background-color: #4b2e1e;
+  color: black;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.mright {
+  height: 66%;
+  width: 45%;
+  margin-right: 5rem;
+}
+main .mright .vid {
+  height: 100%;
+  width: 100%;
+}
+main .mright .vid video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 30px; */
+  border-radius: 50% 50% 15% 15%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0.1, 0.9);
+}
